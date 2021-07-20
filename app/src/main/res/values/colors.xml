@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF000000</color>
+    <color name="colorPrimaryDark">#FF000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorGreen">#32CD32</color>
+    <color name="colorLightGreen">#B7F0B9</color>
+    <color name="colorlightred">#F0B7B7</color>
+    <color name="colorRed">#CD3232</color>
+    <color name="colorGrey">#A9A9A9</color>
+    <color name="colorWhite">#FFF</color>
+    //For Gameplay Page Colors
+    <color name="colorSuggestAnswerBtn">#cc6565</color>
+    <color name="colorLevelBtn">#3bafb0</color> //this color for hint btn too.
+    <color name="colorCoinsBtn">#29bd5c</color> //this color for submit or askFrd too.
+    <color name="colorGameplayBG">#c5d3d4</color>
+</resources>

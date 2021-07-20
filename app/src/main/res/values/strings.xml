@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">EmoQuiz</string>
+    <string name="level">Level</string>
+    <string name="timer">Time:00</string>
+    //EmoQuiz Game Popup Text
+    <string name="positive_pop_title">Congrats!!!</string>
+    <string name="positive_pop_text">You have successfully completed the challenge. Keep it up to earn more hints.</string>
+    <string name="negative_pop_title">Awww...Snap!</string>
+    <string name="negative_pop_text">You have failed to complete the challenge. So close! Wanna have another go at it?</string>
+    <string name="dialog_message">Fill in some of the answer</string>
+    <string name="dialog_title">Show Hint</string>
+    <string name="dialog_hint_cost">Cost: 1 Hint</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+</resources>

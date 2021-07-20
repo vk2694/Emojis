@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:cardElevation="15dp"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:padding="15dp"
+                android:background="@color/colorCoinsBtn"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/levelHeading"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:text="@string/dialog_title"
+                    android:textAlignment="center"
+                    android:textSize="25dp"
+                    android:textColor="#FFF"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/levelContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/dialog_message"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/hintCost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textColor="#000"
+                android:text="Cost: 1 Hint"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="16dp">
+                <Button
+                    android:id="@+id/noBtn"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:textAllCaps="false"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorWhite"
+                    android:background="@drawable/no_button_style"
+                    android:layout_gravity="center_horizontal"/>
+                <Button
+                    android:id="@+id/yesBtn"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    android:textAllCaps="false"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="16dp"
+                    android:textColor="@color/colorWhite"
+                    android:background="@drawable/yes_button_style"
+                    android:layout_gravity="center_horizontal"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>

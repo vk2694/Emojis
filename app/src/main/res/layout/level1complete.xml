@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="400dp"
+    android:layout_gravity="center"
+    android:background="@drawable/yes_button_style"
+    android:backgroundTint="@color/cardview_shadow_start_color"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:layout_editor_absoluteX="30dp"
+    tools:layout_editor_absoluteY="154dp">
+
+    <LinearLayout
+        android:id="@+id/levelComplete_LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/levelHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="70dp"
+            android:layout_marginTop="53dp"
+            android:text="Level Completed"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="30dp"
+            app:layout_constraintBottom_toTopOf="@+id/levelContent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.504"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/levelContent"
+            android:layout_width="324dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="77dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginStart="8dp"
+            android:text="The Level is completed. We are going to next Level"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toTopOf="@+id/nextLevelBtn"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/levelHeading" />
+
+        <Button
+            android:id="@+id/nextLevelBtn"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="33dp"
+            android:layout_marginEnd="49dp"
+            android:layout_marginStart="49dp"
+            android:background="@drawable/yes_button_style"
+            android:text="Next Level"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/levelContent" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
